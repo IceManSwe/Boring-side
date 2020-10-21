@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>Some side</title>
+    <style>
+        .icon{
+            height: 4vw; width: 4vw;
+        }
+        body{
+            background-color: #606060;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Contact</h1>
+        <hr>
+        <form>
+            <div  class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" class="form-control" placeholder="Bondhon">
+            </div>
+            <div class="form-group">
+                <label for="Adress">Adress</label>
+                <input type="text" name="Adress" class="form-control" placeholder="where you live">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" class="form-control" placeholder="example@example.com">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone" class="form-control" placeholder="+46 73 77 41 649">
+            </div>
+            <label for="kommun">Vilken kommun bor du i</label><br>
+            <div class="btn-group" role="group">
+                <div class="form-check">
+                    <input type="radio" name="radio" class="form-check-input">
+                    <label for="check1" class="form-check-label">Huddinge</label>                
+                </div>
+                <div class="form-check">
+                    <input type="radio" name="radio" class="form-check-input">
+                    <label for="check2" class="form-check-label">Haninge</label>      
+                </div>
+                <div class="form-check">                      
+                    <input type="radio" name="radio" class="form-check-input">
+                    <label for="check3" class="form-check-label">Botkyrka</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <input class="btn btn-primary" type="submit" value="Submit">
+            </div>  
+
+        </form>
+    </div>
+    <footer class="footer">
+        <hr>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-sm">
+                    <a href="https://www.twitter.com">
+                        <img src="https://image.flaticon.com/icons/png/512/124/124021.png" alt="twitter logo" class="img-thumbnail icon">
+                    </a>
+                    <a href="http://github.com">
+                        <img src="https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-512.png" alt="github logo" class="img-thumbnail icon">
+                    </a>
+                </div>
+                <div class="col-sm">
+                    <p>Copyright information here</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
